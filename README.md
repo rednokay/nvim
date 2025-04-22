@@ -1,6 +1,6 @@
 # My Neovim Config
 
-Mostly copied from Luke Smith (https://github.com/lukesmithxyz).
+Mostly copied from @LukeSmithxyz (https://github.com/LukeSmithxyz/voidrice/tree/master/.config/nvim).
 
 ## Installation
 
