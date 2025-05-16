@@ -2,12 +2,14 @@
 
 This is my Neovim configuration written in Lua.
 It uses [lazy](https://github.com/folke/lazy.nvim) as plugin-manager and [mason](https://github.com/mason-org/mason.nvim) to manage LSP and related stuff.
+[Onedarkpro](https://github.com/olimorris/onedarkpro.nvim) is beeing used as a theme with *Vaporwave* as a default.
 
 ## Plugins
 - [lazy](https://github.com/folke/lazy.nvim)
 - [mason](https://github.com/mason-org/mason.nvim)
 - [telescope](https://github.com/nvim-telescope/telescope.nvim)
 - [rustaceanvim](https://github.com/mrcjkb/rustaceanvim)
+- [onedarkpro](https://github.com/olimorris/onedarkpro.nvim)
 
 ## Installation
 

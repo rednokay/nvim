@@ -5,3 +5,6 @@ require('config.commands')
 
 -- Plugins
 require('config.lazy')
+
+-- Color Scheme
+vim.cmd("colorscheme vaporwave")
