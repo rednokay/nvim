@@ -1,3 +1,4 @@
+-- Copied from https://github.com/nvim-treesitter/nvim-treesitter/wiki/Installation, adapted to file based loading
 return {
     {
     "nvim-treesitter/nvim-treesitter",
