@@ -8,11 +8,18 @@ It uses [lazy](https://github.com/folke/lazy.nvim) as plugin-manager and [mason]
 - [lazy](https://github.com/folke/lazy.nvim)
 - [mason](https://github.com/mason-org/mason.nvim)
 - [telescope](https://github.com/nvim-telescope/telescope.nvim)
+- [plenary](https://github.com/nvim-lua/plenary.nvim)
 - [rustaceanvim](https://github.com/mrcjkb/rustaceanvim)
 - [onedarkpro](https://github.com/olimorris/onedarkpro.nvim)
 
 ## Installation
 
+*Lua* and *luarocks* are required for lazy. Install by using your systems package manager.
+On fedora that would be
+
+```bash
+sudo dnf install lua luarocks
+```
 Clone the repo to *~/.config/nvim* and run `nvim`. Lazy will start installing all plugins,
 after that run `:MasonInstall rust-analyzer` for Rust support.
 
