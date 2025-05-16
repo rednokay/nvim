@@ -1,7 +1,7 @@
 # My Neovim Config
 
 This is my Neovim configuration written in Lua.
-I uses [lazy](https://github.com/folke/lazy.nvim) as plugin-manager and [mason](https://github.com/mason-org/mason.nvim) to manage LSP and related stuff.
+It uses [lazy](https://github.com/folke/lazy.nvim) as plugin-manager and [mason](https://github.com/mason-org/mason.nvim) to manage LSP and related stuff.
 
 ## Plugins
 - [lazy](https://github.com/folke/lazy.nvim)
