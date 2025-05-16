@@ -15,9 +15,7 @@ Clone the repo to *~/.config/nvim* and run `nvim`. Lazy will start installing al
 after that run `:MasonInstall rust-analyzer` for Rust support.
 
 ```bash
-cd ~/.config
-git clone https://github.com/rednokay/nvim
-nvim
+cd ~/.config && git clone https://github.com/rednokay/nvim && nvim
 ```
 
 Within nvim:
