@@ -14,8 +14,8 @@ It uses [lazy](https://github.com/folke/lazy.nvim) as plugin-manager and [mason]
 
 ## Installation
 
-*Lua* and *luarocks* are required for lazy. Install by using your systems package manager.
-On fedora that would be
+*Lua* and *luarocks* are required for some lazy functions. Install by using your systems package manager.
+On fedora that would be:
 
 ```bash
 sudo dnf install lua luarocks
