@@ -1,5 +1,5 @@
 -- Core Settings
-require('options')
-require('keymaps')
+require('config.keymaps')
+require('config.options')
 
 
