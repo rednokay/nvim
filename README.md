@@ -11,4 +11,4 @@ It uses [lazy](https://github.com/folke/lazy.nvim) as plugin-manager and [mason]
 
 ## Acknowledgments
 - The `lazy.nvim` bootstrap code is adapted from [lazy.nvim](https://github.com/folke/lazy.nvim) (Apache 2.0).
-- Plugin configurations are adapted from their respective documentation and examples.
+- Plugin configurations are mostly adapted from their respective documentation and examples.
