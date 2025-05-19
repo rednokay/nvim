@@ -11,6 +11,8 @@ It uses [lazy](https://github.com/folke/lazy.nvim) as plugin-manager and [mason]
 - [plenary](https://github.com/nvim-lua/plenary.nvim)
 - [rustaceanvim](https://github.com/mrcjkb/rustaceanvim)
 - [onedarkpro](https://github.com/olimorris/onedarkpro.nvim)
+- [blink.cmp](https://github.com/Saghen/blink.cmp)
+- [vimtex](https://github.com/lervag/vimtex)
 
 ## Installation
 
