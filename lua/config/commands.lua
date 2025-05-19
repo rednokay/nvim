@@ -18,3 +18,13 @@ vim.api.nvim_create_autocmd("BufWritePre", {
         vim.api.nvim_win_set_cursor(0, {row, col})
     end,
 })
+
+-- Do not add comment to new-line
+vim.api.nvim_create_autocmd({ "FileType" }, {
+  group = vim.api.nvim_create_augroup("FormatOptions", { clear = true }),
+  pattern = { "*" },
+  callback = function()
+    vim.opt_local.fo:remove("o")
+    vim.opt_local.fo:remove("r")
+  end,
+})
