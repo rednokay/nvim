@@ -15,10 +15,11 @@ return {
     dependencies = { "williamboman/mason.nvim" },
     config = function()
       -- Configure clangd for C/C++ support
-      require("lspconfig").clangd.setup {
+      vim.lsp.config('clangd', {
         cmd = { "clangd", "--background-index" }, -- Optional: Enable background indexing
         filetypes = { "c", "cpp", "objc", "objcpp" }, -- Ensure it works for C files
-      }
+            }
+      )
     end,
   },
 }
